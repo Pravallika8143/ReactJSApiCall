@@ -10,7 +10,7 @@ function Products(){
         setProducts([...data])
     });
    return (
-    <div className="border border-5 p-2 m-2 border-info">
+    <div className="border border-2 p-2 m-2 border-info">
         <h1>Products Length:{products.length}</h1>
         <ul className="products-list">
             {
