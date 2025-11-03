@@ -5,7 +5,7 @@ function Product(props) {
     <div>
         <li>
             <img src={props.a.image} style={{width:"200px",height:"200px"}} alt=""/>
-            <h4>{props.a.title.slice(0,20)}</h4>
+            <h4>{props.a.title.slice(0,23)}</h4>
             <div>
                 <i>Rs.{props.a.price}</i><br/>
                 {props.a.rating.rate} 
