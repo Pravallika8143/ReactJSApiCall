@@ -1,10 +1,10 @@
-.products-list{
+.Products-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.products-list li{
+.Products-list li{
     width: 250px;
     padding: 20px;
     list-style: none;

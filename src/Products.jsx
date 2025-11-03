@@ -12,7 +12,7 @@ function Products(){
    return (
     <div className="border border-2 p-2 m-2 border-dark">
         <h1>Products Length:{products.length}</h1>
-        <ul className="products-list">
+        <ul className="Products-list">
             {
                 products.map((product)=>{
                     return <Product a={product}></Product>
