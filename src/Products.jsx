@@ -7,7 +7,7 @@ function Products(){
     fetch("https://fakestoreapi.com/products")
     .then((res)=>res.json())
     .then ((data)=>{
-        setProducts([...data])
+        setProducts([...data]);
     });
    return (
     <div className="border border-2 p-2 m-2 border-dark">
